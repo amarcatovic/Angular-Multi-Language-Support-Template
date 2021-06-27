@@ -1,3 +1,4 @@
+import { TranslationService } from './utils/services/translation.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-i18n-translation';
+  constructor(private translationService: TranslationService){}
 }

@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-i18n-translation"
+    }
+  },
+  "defaultProject": "angular-i18n-translation",
+  "cli": {
+    "analytics": "08928c00-514c-43f6-a2ba-2cde29a6eb01"
+  }
 }
